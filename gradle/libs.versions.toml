@@ -132,6 +132,7 @@ thorun-android-library = { id = "thorun.android.library", version = "unspecified
 thorun-android-library-compose = { id = "thorun.android.library.compose", version = "unspecified" }
 thorun-android-feature-ui = { id = "thorun.android.feature.ui", version = "unspecified" }
 thorun-android-room = { id = "thorun.android.room", version = "unspecified" }
+thorun-jvm-library = { id = "thorun.jvm.library", version = "unspecified" }
 
 [bundles]
 compose = [
