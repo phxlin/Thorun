@@ -30,7 +30,7 @@ internal fun Project.configureKotlinAndroid(
 
 private fun Project.configureKotlin() {
     tasks.withType<KotlinCompile>().configureEach {
-        compilerOptions  {
+        compilerOptions {
             JavaVersion.VERSION_11.toString()
         }
     }

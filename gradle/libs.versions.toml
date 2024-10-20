@@ -127,3 +127,4 @@ androidDynamicFeature = { id = "com.android.dynamic-feature", version.ref = "agp
 mapsplatform-secrets-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secretsPlugin" }
 
 thorun-android-application = { id = "thorun.android.application", version = "unspecified"}
+thorun-android-application-compose = { id = "thorun.android.application.compose", version = "unspecified"}
