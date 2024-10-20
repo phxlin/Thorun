@@ -35,6 +35,10 @@ gradlePlugin {
             id = "thorun.android.feature.ui"
             implementationClass = "AndroidFeatureUiConventionPlugin"
         }
+        register("androidRoom") {
+            id = "thorun.android.room"
+            implementationClass = "AndroidRoomConventionPlugin"
+        }
     }
 }
 

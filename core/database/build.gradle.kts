@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.thorun.android.library)
+    alias(libs.plugins.thorun.android.room)
 }
 
 android {
