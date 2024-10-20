@@ -23,6 +23,10 @@ gradlePlugin {
             id = "thorun.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
+        register("androidLibrary") {
+            id = "thorun.android.library"
+            implementationClass = "AndroidLibraryConventionPlugin"
+        }
     }
 }
 
