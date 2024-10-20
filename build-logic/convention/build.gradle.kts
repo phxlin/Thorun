@@ -13,3 +13,12 @@ dependencies {
     compileOnly(libs.room.gradlePlugin)
 }
 
+gradlePlugin {
+    plugins {
+        register("androidApplication") {
+            id = "thorun.android.application"
+            implementationClass = "AndroidApplicationConventionPlugin"
+        }
+    }
+}
+

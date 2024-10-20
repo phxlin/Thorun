@@ -1,22 +1,16 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
+    // Default
     alias(libs.plugins.compose.compiler)
 
     alias(libs.plugins.mapsplatform.secrets.plugin)
+
+    alias(libs.plugins.thorun.android.application)
 }
 
 android {
     namespace = "lin.yufan.thorun"
-    compileSdk = 34
 
     defaultConfig {
-        applicationId = "lin.yufan.thorun"
-        minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             useSupportLibrary = true
@@ -31,13 +25,6 @@ android {
                 "proguard-rules.pro"
             )
         }
-    }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
-    }
-    kotlinOptions {
-        jvmTarget = "11"
     }
     buildFeatures {
         compose = true
