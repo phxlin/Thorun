@@ -11,6 +11,7 @@
 
 # Local configuration files
 /local.properties
+local.properties
 
 # Android Studio and IntelliJ IDEA files
 .idea/
