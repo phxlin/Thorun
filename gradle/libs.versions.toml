@@ -130,3 +130,21 @@ thorun-android-application = { id = "thorun.android.application", version = "uns
 thorun-android-application-compose = { id = "thorun.android.application.compose", version = "unspecified" }
 thorun-android-library = { id = "thorun.android.library", version = "unspecified" }
 thorun-android-library-compose = { id = "thorun.android.library.compose", version = "unspecified" }
+thorun-android-feature-ui = { id = "thorun.android.feature.ui", version = "unspecified" }
+
+[bundles]
+compose = [
+    "androidx-activity-compose",
+    "androidx-lifecycle-runtime-compose",
+    "androidx-lifecycle-viewmodel-compose",
+    "androidx-ui",
+    "androidx-ui-graphics",
+    "androidx-ui-tooling-preview",
+    "androidx-material3"
+]
+compose-debug = [
+    "androidx-ui-tooling",
+    "androidx-ui-test-manifest"
+]
+koin = ["koin-core", "koin-android", "koin-android-workmanager"]
+koin-compose = ["koin-core", "koin-android", "koin-android-workmanager", "koin-androidx-compose"]
