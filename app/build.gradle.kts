@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.compose.compiler)
 
     alias(libs.plugins.thorun.android.application.compose)
-
+    alias(libs.plugins.thorun.jvm.ktor)
     alias(libs.plugins.mapsplatform.secrets.plugin)
 }
 
