@@ -129,3 +129,4 @@ mapsplatform-secrets-plugin = { id = "com.google.android.libraries.mapsplatform.
 thorun-android-application = { id = "thorun.android.application", version = "unspecified" }
 thorun-android-application-compose = { id = "thorun.android.application.compose", version = "unspecified" }
 thorun-android-library = { id = "thorun.android.library", version = "unspecified" }
+thorun-android-library-compose = { id = "thorun.android.library.compose", version = "unspecified" }
